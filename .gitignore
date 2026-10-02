@@ -1,0 +1,13 @@
+node_modules/
+*.log
+*.jsonl
+.env
+.env.*
+.typesafe_key
+*.key
+*.pem
+.mercury-decide/
+coverage/
+.DS_Store
+Thumbs.db
+*.bak*

@@ -1,0 +1,35 @@
+{
+  "name": "mercury-decide",
+  "version": "0.1.0",
+  "description": "Dependency-free CLI, MCP server and task router for Inception's Mercury Decide (typed yes/no, choice and score decisions through OpenRouter's Decisions API).",
+  "type": "module",
+  "license": "MIT",
+  "author": "Jerry Koreman",
+  "private": true,
+  "bin": {
+    "mercury-decide": "bin/decide.mjs",
+    "mercury-decide-mcp": "bin/mcp.mjs",
+    "mercury-route": "bin/route.mjs"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test",
+    "smoke": "node scripts/smoke.mjs",
+    "scan": "node scripts/scan-secrets.mjs"
+  },
+  "keywords": [
+    "mercury-decide",
+    "openrouter",
+    "mcp",
+    "decisions",
+    "router"
+  ]
+}
